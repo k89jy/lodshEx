@@ -12,8 +12,8 @@ function firstOutput() {
 
 function secondOutput() {
   return new Promise((resolve, reject) => {
-    for (let i; i < 100; i++) {
-      total = total - 1;
+    for (let i; i < 200; i++) {
+      total = total + 1;
     }
     resolve({ total });
   });
@@ -28,5 +28,5 @@ firstOutput()
     console.log(res);
   });
 
-// expected result sum: 100, total: 0
-// result sum: 0 , total: 100
+// expected result sum: sum of 1 to 100, total: sum of 1 to 200
+// result sum: 0 , total: 0
