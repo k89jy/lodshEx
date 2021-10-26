@@ -3,7 +3,6 @@ var _ = require("lodash");
 
 function firstOutput() {
   let range_arr = _.range(0, 100, 1);
-
   let sum = _.sum(range_arr);
   return sum;
 }

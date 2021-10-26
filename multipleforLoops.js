@@ -10,5 +10,5 @@ for (let i; i < 200; i++) {
 console.log(`sum ${sum}`);
 console.log(`total ${total}`);
 
-// expected result sum: 100, total: 0
+// expected result sum: sum of 1 to 100, total: sum of 1 to 200
 // result sum: 0 , total: 0
